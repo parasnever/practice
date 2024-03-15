@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 float convert(float m);
-main()
+int main()
 {
     float m;
     cin >> m;
     cout << "kilometer is :"<< convert(m);
 
 }
-inline float convert(flaot m)
+inline float convert(float m)
 {
-    return (m * 1000);
+    return (m / 1000);
 }
