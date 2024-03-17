@@ -15,6 +15,6 @@ class second : public first
     }
 };
 int main(){
-    second second1;
-    second1.getData();
+    second s1;
+    s1.getData();
 }
